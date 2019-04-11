@@ -1,6 +1,6 @@
 # Graph Algorithm Simulator
 
-CS 310 Programming Assignment 4 Due: **May 5th** (**Saturday**) 11:59pm, 2019
+CS 310 Programming Assignment 4 Due: **May 5th** (Sunday) 11:59pm, 2019
 
 <img src="animated.gif" width="400px" />
 
