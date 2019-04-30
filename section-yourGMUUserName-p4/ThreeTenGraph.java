@@ -607,6 +607,7 @@ class ThreeTenGraph<V,E> implements Graph<V,E>, DirectedGraph<V,E> {
      * Returns a {@code Factory} that creates an instance of this graph type.
      * @param <V> the vertex type for the graph factory
      * @param <E> the edge type for the graph factory
+     * @return a {@code Factory} that creates an instance of this graph type
      */
 	public static <V,E> Factory<Graph<V,E>> getFactory() { 
 		return new Factory<Graph<V,E>> () {
