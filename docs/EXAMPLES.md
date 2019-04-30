@@ -6,6 +6,7 @@ Example runs of the simulator are given below:
 2. [Adding nodes and edges to a graph](#example-2)
 3. [Removing a nodes and edges from a graph](#example-3)
 4. [Running Dijkstra's in the simulator](#example-4)
+5. [Unreachable Paths](#example-5)
 
 ### Example 1
 Displaying a Graph
@@ -71,3 +72,12 @@ Image|Explanation
 ![](example4c.png "")|Hit "Step" (smallest node is picked, edges are highlighted, and neighbors show their updates)
 ![](example4d.png "")|Hit "Step" (previous node is finished, next smallest node is picked...)
 ![](example4e.png "")|Hit "Play" (will complete the algorithm, used edges are in green and others are grey)
+
+### Example 5
+What happens for unreachable paths?
+
+The simulator should still step through all nodes (because this is what Dijkstra's algorithm does). However, the parent pointer for nodes that are "infinitely far away" is never set, so there are no green edges.
+
+Image|Explanation
+:---: | :---:
+![](example5a.png "")|Completed run for a graph with unreachable nodes.
